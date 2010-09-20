@@ -1,14 +1,15 @@
 # clojure-nltk-examples
 
-FIXME: write description
-
-## Usage
-
-FIXME: write
+Demonstrations of clojure-nltk library.
 
 ## Installation
 
-FIXME: write
+1. clone the repository
+2. wget http://github.com/rplevy/clojure-python/raw/master/etc/jython-2.5.1.jar
+   mvn install:install-file -DgroupId=org.python -DartifactId=jython -Dversion=2.5.1 -Dpackaging=jar -Dfile=./jython-2.5.1.jar
+   (Because the Maven artifact for Jython 2.5.1-- which is required by clojure-python interop layer-- has not yet been added to the central Maven repository, for now it is necessary to install it locally with mvn before running lein deps.) 
+3. lein deps
+4. lein repl
 
 ## License
 
